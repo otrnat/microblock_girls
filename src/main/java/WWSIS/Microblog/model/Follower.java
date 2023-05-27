@@ -41,7 +41,7 @@ public class Follower {
 		return this.id;
 	}
 	
-	public void setFollower(String follower) {
+	public void set(String follower) {
 		this.follower = follower;
 	}
 	
