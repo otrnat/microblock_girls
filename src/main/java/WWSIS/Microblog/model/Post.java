@@ -56,7 +56,7 @@ public class Post {
 		this.content = content;
 	}
 	
-	public String getConten() {
+	public String getContent() {
 		return this.content;
 	}
 }
