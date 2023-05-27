@@ -18,15 +18,15 @@ http://www.springframework.org/schema/context/spring-context-4.0.xsd">
         <property name="password" value="okto123"/>
     </bean>
     <tx:annotation-driven />
-<!--    TODO: Change to the correct values -->
+
     <bean id="entityManagerFactoryBean"
           class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <property name="packagesToScan" value="pl.wwsis.microblog.model" />
+        <property name="packagesToScan" value="WWSIS.Microblog.model" />
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
                 <property name="showSql" value="false" />
-                <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
+                <property name="databasePlatform" value="org.hibernate.dialect.HSQLDialect" />
             </bean>
         </property>
         <property name="jpaProperties">
