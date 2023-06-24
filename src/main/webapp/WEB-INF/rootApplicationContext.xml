@@ -4,3 +4,6 @@
        xsi:schemaLocation=" http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 </beans>
+<bean id="PostDao" class="WWSIS.Microblog.dao.impl.PostDaoImpl"/>
+    <bean id="UserDao" class="WWSIS.Microblog.dao.impl.UserDaoImpl"/>
+    <bean id="FollowerDao" class="WWSIS.Microblog.dao.impl.FollowerDaoImpl"/>
