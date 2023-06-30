@@ -1,3 +1,5 @@
+package WWSIS.Microblog.dao;
+
 packageWWSIS.Microblog.dao;
 
 import static org.junit.Assert.assertEquals;
