@@ -9,8 +9,5 @@
         <module name="microblock_girls" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="microblock_girls" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
